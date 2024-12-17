@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signUpStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-content">
+            <img src="images/3657978.jpg" alt="" style="margin-top: 20px;">
+          </div>
+          <div class="right-content" style="margin-top: 70px;">
+            <!-- this is the login -->
+            <h1 class="signup-title">Log In</h1>
+
+            <form action="#" method="POST" enctype="multipart/form-data" onsubmit="return validateForm('login')" id="login-form" style="margin-top: -40px;">
+              <div class="input-box">
+                <input type="text" required name="email" id="login-email">
+                <label for="login-email">Email</label>
+                <small class="error-message" id="login-email-error"></small>
+              </div>
+            
+              <div class="input-box">
+                <input type="password" required name="password" id="login-password">
+                <label for="login-password">Password</label>
+                <small class="error-message" id="login-password-error"></small>
+              </div>
+            
+            
+              <button type="submit">Log In</button>
+              <p class="fileLabel">Don't have an account?
+                <a class="loginicon" href="signUp.html">Sign Up</a>
+              </p>
+            </form>
+            
+          </div>
+    </div>
+    <script src="JavaScript/validation.js"></script>
+</body>
+</html>

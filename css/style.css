@@ -1,0 +1,152 @@
+*,body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    font-family: raleway;
+
+}
+:root{
+    --main-color:rgb(199, 10, 10);
+    --main-button-color:#056839;
+}
+.text-main{
+    color:var(--main-color)
+}
+.buttonBase{
+    background-color:var(--main-button-color);
+    color:white;
+    text-decoration: none;
+    
+    text-decoration: none;padding: 10px 17px;
+     color: white;
+     border:none;
+     border-radius: 3px;
+     
+}
+.divHover{
+  position:relative;margin-bottom:38px;
+                margin-right:25px;float: left;width: 21%;
+                padding: 30px 5px;box-shadow: 0px 0px 5px rgb(228, 225, 225);
+                text-align: center;padding-bottom: 40px;
+}
+.buttonHoverBase{
+    background-color:var(--main-button-color);
+    color:white;
+    text-decoration: none;
+    
+    text-decoration: none;
+    padding: 10px 17px;
+    /* transform: translateY(10px); */
+     border:none;
+     border-radius: 3px;
+     display: none;
+     transition: all 0.5s ease-in-out;
+     cursor: pointer;
+     position: absolute;
+     left:40px
+     
+}
+
+ul li a{
+    padding-right: 35px;
+    color: blue;
+   text-decoration: none;
+   color: black;
+}
+ul li i{
+    padding-right: 7px;
+   
+  
+   color:#056839;
+}
+.back{
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+}
+
+.parent {
+    background-image: url(../images/home-hero-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+   
+}
+.paragraph{
+    padding: 50px 70px;
+    color: white;
+    font-family: raleway;
+    position: absolute;
+    /* bottom: -100%; */
+     opacity: 0;
+     /* transform: translateY(100%);  */
+     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+.three{
+    width: 28%;
+    float: left;
+    background-color: #117747;
+    color: white;
+    padding: 20px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .specialty-section {
+    margin-bottom: 40px;
+  }
+  .specialty-section h2 {
+    border-bottom: 2px solid #007BFF;
+    color: #007BFF;
+    padding-bottom: 5px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+  }
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  .card-content h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  .card-content p {
+    margin: 5px 0;
+    color: #555;
+  }
+  .card-content .location {
+    font-size: 14px;
+    color: #888;
+  }
+
+  .card {
+cursor: pointer; /* Make the card clickable */
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: scale(1.05); /* Slightly enlarge the card */
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <title>Contact us</title>
+</head>
+<body>
+        <div class="left-content">
+            <form action="#" method="POST" enctype="multipart/form-data" onsubmit="sendcontactinfo()" id="contact-form" style="margin-top: -40px;">
+                <div class="input-box">
+                  <input type="text" name="name" id="name">
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-box">
+                    <input type="text"  name="email" id="email">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-box">
+                    <textarea required name="message" id="message" rows="4"></textarea>
+                    <label for="message">Your Message</label>
+                  </div>
+
+                <button type="submit">Submit</button>
+              </form>
+        </div>
+      
+        <div class="container">
+              <div class="right-content">
+                <div class="navbar">
+                    <ul>
+                        <h4>Get in touch</h4>
+                        <p>We are here for you! How can we help?</p>
+                        <li><a href="mailto:clinics@gmail.com"><i class="fa-solid fa-envelope"> </i> clinics@gmail.com</a></li>
+                        <li><a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"> </i> clinics blog</a></li>
+                        <li><a href="https://wa.me/201030203040" target="_blank"><i class="fa-brands fa-whatsapp"></i> 01030203040</a></li> 
+                    </ul>
+                </div><img src="images/Doctors-pana.png" alt="" > 
+              </div>
+        </div>
+        <script src="https://kit.fontawesome.com/60040005e9.js" crossorigin="anonymous"></script>
+        <script src="JavaScript/contact.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyDNtTT30NLqWfmyy2RgbtmWcmDmmKgfESA",
+              authDomain: "clinic-system-80ce9.firebaseapp.com",
+              projectId: "clinic-system-80ce9",
+              storageBucket: "clinic-system-80ce9.firebasestorage.app",
+              messagingSenderId: "772071607778",
+              appId: "1:772071607778:web:fca27e6a26328a799e7dbb",
+              measurementId: "G-4PQ7H65C0B"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+</body>
+</html>

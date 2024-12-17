@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation Page</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <h1>Booking Details</h1>
+  <div class="appointment-details" id="appointmentDetails">
+  </div>
+  <div class="actions">
+    <button onclick="goBack()">close</button>
+    <!-- <button onclick="clearBooking()">Clear Booking</button> -->
+  </div>
+ 
+  <script>
+    // استرجاع بيانات الموعد من localStorage
+    const appointments = JSON.parse(localStorage.getItem('appointments')) || [];
+ 
+    if (appointments.length > 0) {
+      const lastAppointment = appointments[appointments.length - 1];  
+ 
+      const detailsHTML = `
+        <p>Type of Visit: <span>${lastAppointment.visitType || "N/A"}</span></p>
+        <p>Specialization: <span>${lastAppointment.specialty || "N/A"}</span></p>
+        <p>The Doctor: <span>${lastAppointment.doctor || "N/A"}</span></p>
+        <p>Your Name: <span>${lastAppointment.name || "N/A"}</span></p>
+        <p>Your Email: <span>${lastAppointment.email || "N/A"}</span></p>
+        <p>Phone Number: <span>${lastAppointment.phone || "N/A"}</span></p>
+      `;
+ 
+      document.getElementById('appointmentDetails').innerHTML = detailsHTML;
+    } else {
+      document.getElementById('appointmentDetails').innerHTML = `<p>No booking data found.</p>`;
+    }
+ 
+   
+    function goBack() {
+      window.location.href = 'clinic.html';
+    }
+ 
+    // function clearBooking() {
+    //   localStorage.removeItem('appointments');
+    //   alert('Booking data cleared.');
+    //   window.location.reload();
+    // }
+  </script>
+</body>
+</html>
+ 

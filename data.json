@@ -1,0 +1,245 @@
+{
+	"medicalSpecializations": [
+	  {
+		"imageUrl": "images/imagesclinics/Cardiothoracic-Surgery.webp",
+		"name": "Cardiology",
+		"description": "Cardiology focuses on the diagnosis and treatment of heart-related conditions and diseases.",
+		"solutions": [
+		  "Medication for high blood pressure and cholesterol",
+		  "Coronary angioplasty",
+		  "Lifestyle changes such as diet and exercise",
+		  "Cardiac rehabilitation programs"
+		],
+		"doctors": [
+		  {
+			"name": "Dr.Ahmed Hossam",
+			"imageUrl": "images/Doctors/Dr.AhmedHossam.webp",
+			"location": "Cairo",
+			"specialized": "Cardiology",
+			"description": "Expert in treating cardiovascular diseases with over 15 years of experience."
+		  },
+		  {
+			"name": "Dr.Mona Khaled",
+			"imageUrl": "images/Doctors/Dr.MonaKHaled.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Cardiology",
+			"description": "Specializes in heart failure and interventional cardiology."
+		  },
+		  {
+			"name": "Dr.Samir El-Din",
+			"imageUrl": "images/Doctors/Dr.SamirElDin.webp",
+			"location": "North Coast",
+			"specialized": "Cardiology",
+			"description": "Focuses on preventive cardiology and hypertension management."
+		  },
+		  {
+			"name": "Dr.Heba Ali",
+			"imageUrl": "images/Doctors/Dr.HebaAli.webp",
+			"location": "Cairo",
+			"specialized": "Cardiology",
+			"description": "Renowned for minimally invasive cardiac procedures."
+		  },
+		  {
+			"name": "Dr.Omar Hassan",
+			"imageUrl": "images/Doctors/Dr.OmarHassan.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Cardiology",
+			"description": "Well-versed in pediatric cardiology."
+		  }
+		]
+	  },
+	  {
+		"imageUrl": "images/imagesclinics/neurology.webp",
+		"name": "Neurology",
+		"description": "Neurology specializes in disorders of the nervous system, including the brain and spinal cord.",
+		"solutions": [
+		  "Physical therapy for neurological disorders",
+		  "Medications for epilepsy and Parkinson's disease",
+		  "Surgical interventions like deep brain stimulation",
+		  "Cognitive behavioral therapy"
+		],
+		"doctors": [
+		  {
+			"name": "Dr.Rana Youssef",
+			"imageUrl": "images/Doctors/Dr.RanaYoussef.webp",
+			"location": "Cairo",
+			"specialized": "Neurology",
+			"description": "Expert in managing migraines and multiple sclerosis."
+		  },
+		  {
+			"name": "Dr.Karim Fathy",
+			"imageUrl": "images/Doctors/Dr.KarimFathy.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Neurology",
+			"description": "Specialist in epilepsy and movement disorders."
+		  },
+		  {
+			"name": "Dr.Layla Saad",
+			"imageUrl": "images/Doctors/Dr.LaylaSaad.webp",
+			"location": "North Coast",
+			"specialized": "Neurology",
+			"description": "Experienced in neurodegenerative diseases."
+		  },
+		  {
+			"name": "Dr.Hisham Tarek",
+			"imageUrl": "images/Doctors/Dr.HishamTarek.webp",
+			"location": "Cairo",
+			"specialized": "Neurology",
+			"description": "Focuses on stroke recovery and rehabilitation."
+		  },
+		  {
+			"name": "Dr.Amira Nabil",
+			"imageUrl": "images/Doctors/Dr.AmiraNabil.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Neurology",
+			"description": "Well-known for pediatric neurology care."
+		  }
+		]
+	  },
+	  {
+		"imageUrl": "images/imagesclinics/psychology.webp",
+		"name": "Dermatology",
+		"description": "Dermatology addresses issues related to the skin, hair, and nails.",
+		"solutions": [
+		  "Topical treatments for acne and eczema",
+		  "Laser therapy for skin rejuvenation",
+		  "Biopsy for suspicious skin growths",
+		  "Allergy testing and treatments"
+		],
+		"doctors": [
+		  {
+			"name": "Dr.Salma Adel",
+			"imageUrl": "images/Doctors/Dr.SalmaAdel.webp",
+			"location": "Cairo",
+			"specialized": "Dermatology",
+			"description": "Skincare specialist focusing on acne treatments."
+		  },
+		  {
+			"name": "Dr.Wael Mansour",
+			"imageUrl": "images/Doctors/Dr.WaelMansour.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Dermatology",
+			"description": "Expert in laser therapy for skin conditions."
+		  },
+		  {
+			"name": "Dr.Rania Helmy",
+			"imageUrl": "images/Doctors/Dr.RaniaHelmy.webp",
+			"location": "North Coast",
+			"specialized": "Dermatology",
+			"description": "Specializes in hair loss and scalp issues."
+		  },
+		  {
+			"name": "Dr.Adel Ibrahim",
+			"imageUrl": "images/Doctors/Dr.AdelIbrahim.webp",
+			"location": "Cairo",
+			"specialized": "Dermatology",
+			"description": "Known for effective eczema management."
+		  },
+		  {
+			"name": "Dr.Farah Magdy",
+			"imageUrl": "images/Doctors/Dr.FarahMagdy.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Dermatology",
+			"description": "Focuses on cosmetic dermatology and skin health."
+		  }
+		]
+	  },
+	  {
+		"imageUrl": "images/imagesclinics/orthopedics.webp",
+		"name": "Orthopedics",
+		"description": "Orthopedics deals with disorders of the bones, joints, and muscles.",
+		"solutions": [
+		  "Joint replacement surgery",
+		  "Fracture treatment and care",
+		  "Arthroscopy for joint injuries",
+		  "Physical rehabilitation programs"
+		],
+		"doctors": [
+		  {
+			"name": "Dr.Mahmoud Saad",
+			"imageUrl": "images/Doctors/Dr.MahmoudSaad.webp",
+			"location": "Cairo",
+			"specialized": "Orthopedics",
+			"description": "Specializes in knee replacement surgeries."
+		  },
+		  {
+			"name": "Dr.Nada Fawzy",
+			"imageUrl": "images/Doctors/Dr.NadaFawzy.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Orthopedics",
+			"description": "Expert in pediatric orthopedic care."
+		  },
+		  {
+			"name": "Dr.Hassan Tarek",
+			"imageUrl": "images/Doctors/Dr.HassanTarek.webp",
+			"location": "North Coast",
+			"specialized": "Orthopedics",
+			"description": "Focuses on sports injuries and rehabilitation."
+		  },
+		  {
+			"name": "Dr.Laila Anwar",
+			"imageUrl": "images/Doctors/Dr.LailaAnwar.webp",
+			"location": "Cairo",
+			"specialized": "Orthopedics",
+			"description": "Known for treating spinal deformities."
+		  },
+		  {
+			"name": "Dr.Youssef Amin",
+			"imageUrl": "images/Doctors/Dr.YoussefAmin.webp",
+			"location": "Sheikh Zayed",
+			"specialized": "Orthopedics",
+			"description": "Specializes in hip replacement and trauma surgeries."
+		  }
+		]
+	  },
+	  {
+		"imageUrl": "images/imagesclinics/oncology.webp",
+		"name": "Oncology",
+		"description": "Oncology focuses on the diagnosis and treatment of cancer.",
+		"solutions": [
+		  "Chemotherapy treatments",
+		  "Radiation therapy",
+		  "Targeted cancer therapy",
+		  "Immunotherapy options"
+		],
+		"doctors": [
+		  {
+			"name": "Dr.Amal Hafez",
+			"imageUrl": "images/Doctors/female-image-place-holder.webp",
+			"location": "Cairo",
+			"specialized": "Oncology",
+			"description": "Renowned for breast cancer treatments."
+		  },
+		  {
+			"name": "Dr.Tamer Adel",
+			"imageUrl": "images/Doctors/Dr.TamerAdel.jpg",
+			"location": "Sheikh Zayed",
+			"specialized": "Oncology",
+			"description": "Expert in lung cancer therapies."
+		  },
+		  {
+			"name": "Dr.Huda Ghanem",
+			"imageUrl": "images/Doctors/female-image-place-holder.webp",
+			"location": "North Coast",
+			"specialized": "Oncology",
+			"description": "Specializes in pediatric oncology."
+		  },
+		  {
+			"name": "Dr.Samir Abdel-Rahman",
+			"imageUrl": "images/Doctors/Dr.Samir.jpg",
+			"location": "Cairo",
+			"specialized": "Oncology",
+			"description": "Focuses on gastrointestinal cancers."
+		  },
+		  {
+			"name": "Dr.Nourhan Naguib",
+			"imageUrl": "images/Doctors/Dr.Nourhan.jpeg",
+			"location": "Sheikh Zayed",
+			"specialized": "Oncology",
+			"description": "Known for innovative immunotherapy treatments."
+		  }
+		]
+	  }
+	]
+  }
+  
